@@ -24,10 +24,10 @@ const MarketingPage = () => {
           No 1 タスク管理ツール
         </div>
         <h1 className="text-3xl md:text-6xl text-center text-neutral-800 mb-6">
-          Taskify で、チームの作業を加速。
+          Taskify で、チームを効率化
         </h1>
         <div className="text-3xl md:text-6xl bg-gradient-to-r from-fuchsia-600 to-pink-600 text-white px-4 p-2 rounded-md pb-4 w-fit">
-          前を向いて進めよう。
+          Work forward.
         </div>
       </div>
       <div
@@ -40,7 +40,7 @@ const MarketingPage = () => {
         - Taskify でフラットに。
       </div>
       <Button className="mt-6" size="lg" asChild>
-        <Link href="/sign-up">Taskifyを無料で開始</Link>
+        <Link href="/sign-up">Taskifyを無料で始める</Link>
       </Button>
     </div>
   );
