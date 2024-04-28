@@ -19,7 +19,7 @@ const MarketingPage = () => {
           NotoSansJp.className
         )}
       >
-        <div className="mb-4 flex items-center border shadow-sm p-4 bg-amber-100 text-amber-700 rounded-full uppercase">
+        <div className="mb-4 flex items-center border shadow-sm p-4 bg-amber-100 text-amber-700 rounded-full">
           <Medal className="h-6 w-6 mr-2" />
           No 1 タスク管理ツール
         </div>
@@ -36,8 +36,8 @@ const MarketingPage = () => {
           NotoSansJp.className
         )}
       >
-        コラボレーション、プロジェクト管理、生産性を最大化。働く場所や働き方は様々
-        - Taskify でフラットに。
+        スムーズなコラボレーション、効率的なプロジェクト管理 -
+        Taskifyはあなたの生産性を最大化します。
       </div>
       <Button className="mt-6" size="lg" asChild>
         <Link href="/sign-up">Taskifyを無料で始める</Link>
