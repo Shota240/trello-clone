@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Trello風アプリ Takify
+Next.jsのフルスタックアプリの開発練習として、カンバン式タスク管理アプリケーションを開発します。  
+Special thanks to Mr. [@AntonioErdeljac](https://github.com/AntonioErdeljac)
 
-## Getting Started
+### 経緯
+Next.jsのアプリケーション開発計画をたてていて、Next.jsひいてはTypescriptやクライアント/サーバー連携の知見が足りないため、まず一度フルスタックアプリケーションの開発経験を積みたかった。
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 使用技術
+### フロントエンド
+- Next.js14
+- TypeScript
+- Tailwind CSS
+- パッケージ（編集中）
+  - Radix-UI
+  - shadcn-ui
+  - lucide-react
+### バックエンド
+- Next.js14
+- TypeScript
+- サーバー
+  - Vercel
+- DB
+  - Supabase（PostgreSQL）
+### ミドルウェア
+- ユーザー認証
+  - Clerk（~~Supabaseに置き換えたい~~ 後戻りできなそうなので劣後or次回開発時に採用したい）
+- 決済系
+  - Stripe
+- DB操作
+  - Prisma
