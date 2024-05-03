@@ -13,7 +13,7 @@ export const Board = ({ title, id }: BoardProps) => {
   
   return (
     <form action={deleteBoardWithId} className="flex items-center gap-x-2">
-      <p>Board title: {title}</p>
+      <p>ボードタイトル: {title}</p>
       <FormDelete/>
     </form>
   );
