@@ -10,7 +10,7 @@ export const Info = () => {
 
   if (!isLoaded) {
     return (
-        <Info.Skeleton />
+        <Info.Skeleton /> 
     );
   }
 
