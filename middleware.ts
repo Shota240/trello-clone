@@ -6,6 +6,7 @@ import { NextResponse } from "next/server";
 const isProtectedRoute = createRouteMatcher([
   "/select-org(.*)",
   "/organization(.*)",
+  "/board(.*)",
 ]);
 
 // This Middleware does not protect any routes by default.

@@ -28,8 +28,13 @@ export const FormSubmit = ({
 
   return (
     <Button
-    disabled={pending || disabled} type="submit" variant={variant} size="sm" className={cn(className)} >
-        {children}
+      disabled={pending || disabled}
+      type="submit"
+      variant={variant}
+      size="sm"
+      className={cn(className)}
+    >
+      {children}
     </Button>
-  )
+  );
 };
